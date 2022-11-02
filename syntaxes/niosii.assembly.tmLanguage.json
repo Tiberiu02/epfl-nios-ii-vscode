@@ -116,28 +116,27 @@
       "patterns": [
         {
           "name": "constant.numeric.hex.niosii",
-          "match": "(?<![a-zA-Z])0x[0-9A-Fa-f]+\\b"
+          "match": "(?<![0-9a-zA-Z])0x[0-9A-Fa-f]+\\b"
         },
         {
           "name": "constant.numeric.octal.niosii",
-          "match": "(?<![a-zA-Z])0o[0-7]+\\b"
+          "match": "(?<![0-9a-zA-Z])0o[0-7]+\\b"
         },
         {
           "name": "constant.numeric.binary.niosii",
-          "match": "(?<![a-zA-Z])0b[01]+\\b"
+          "match": "(?<![0-9a-zA-Z])0b[01]+\\b"
         },
         {
           "name": "constant.numeric.decimal.niosii",
-          "match": "[+-]?[0-9]+\\b"
+          "match": "(?<![0-9a-zA-Z])[+-]?[0-9]+\\b"
         }
       ]
     },
     "variable": {
-      "name": "variable.niosii",
       "patterns": [
         {
           "name": "variable.language.niosii",
-          "match": "(?i)\\b(r[0-9]|r1[0-9]|r2[0-3]|zero|at|et|bt|gp|SP|sp|PC|pc|FP|fp[0-7]|ea|ra|status|estatus|bstatus|ienable|ipending)\\b"
+          "match": "(?i)\\b(r[0-9]|a[0-9]|t[0-9]|r1[0-9]|r2[0-3]|zero|at|et|bt|gp|SP|sp|PC|pc|FP|fp[0-7]|ea|ra|status|estatus|bstatus|ienable|ipending)\\b"
         },
         {
           "name": "variable.name.niosii",
