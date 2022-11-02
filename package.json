@@ -1,10 +1,10 @@
 {
-  "name": "nios-ii",
-  "displayName": "Nios II",
-  "description": "Nios II Language Support for Nios II Assembly Language Programming",
-  "publisher": "niosii",
+  "name": "epfl-nios-ii",
+  "displayName": "EPFL Nios II",
+  "description": "Language Support for the Nios II Assembly Language Programming taught at EPFL",
+  "publisher": "TiberiuMusat",
   "version": "0.0.15",
-  "repository": "https://github.com/niosii/nios-ii-vscode",
+  "repository": "https://github.com/Tiberiu02/epfl-nios-ii-vscode",
   "engines": {
     "vscode": "^1.36.0"
   },
@@ -31,12 +31,13 @@
       {
         "id": "niosii",
         "aliases": [
-          "Nios II",
+          "EPFL Nios II",
           "niosii",
           "niosiiasm",
           "niosii asm"
         ],
         "extensions": [
+          ".asm",
           ".s",
           ".niosii",
           ".eds",
