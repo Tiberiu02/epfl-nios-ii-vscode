@@ -3,8 +3,11 @@
   "displayName": "EPFL Nios II",
   "description": "Language Support for the Nios II Assembly Language Programming taught at EPFL",
   "publisher": "TiberiuMusat",
-  "version": "0.0.15",
-  "repository": "https://github.com/Tiberiu02/epfl-nios-ii-vscode",
+  "version": "0.0.16",
+  "repository": {
+    "url": "https://github.com/Tiberiu02/epfl-nios-ii-vscode"
+  },
+	"icon": "favicon.jpg",
   "engines": {
     "vscode": "^1.36.0"
   },
@@ -62,6 +65,13 @@
         "scopeName": "source.s",
         "path": "./syntaxes/niosii.assembly.tmLanguage.json"
       }
-    ]
+    ],
+		"themes": [
+			{
+				"label": "Dark Age",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-age-color-theme.json"
+			}
+		]
   }
 }
