@@ -3,7 +3,7 @@
   "displayName": "EPFL Nios II",
   "description": "Language Support for the Nios II Assembly Language Programming taught at EPFL",
   "publisher": "TiberiuMusat",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "repository": {
     "url": "https://github.com/Tiberiu02/epfl-nios-ii-vscode"
   },
